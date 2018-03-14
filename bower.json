@@ -1,0 +1,27 @@
+{
+  "name": "Portfolio 2",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "slick": "*",
+    "bootstrap": "^4.0.0"
+  },
+  "overrides": {
+    "bootstrap": {
+        "main": [
+            "./dist/js/bootstrap.min.js",
+            "./dist/css/bootstrap.min.css"
+            ]
+    }
+  }
+}

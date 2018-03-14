@@ -1,0 +1,28 @@
+{
+  "name": "portfoliotwo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.2.3",
+    "gulp": "latest",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-clean-css": "latest",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-stylus": "latest",
+    "gulp-uglify": "^1.1.0",
+    "gulp-watch": "^4.1.1",
+    "imagemin-pngquant": "^4.0.0",
+    "main-bower-files": "^2.13.1",
+    "rimraf": "^2.3.1"
+  },
+  "devDependencies": {
+    "gulp-plumber": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
