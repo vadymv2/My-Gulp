@@ -1,0 +1,13 @@
+https://toster.ru/q/212922
+
+
+gulp.task('less', function() {
+    gulp.src(sourceDir + '/less/style.less')
+        .pipe(plumber())
+        .pipe(less())
+        .pipe(gulp.dest(destDir + '/css'));
+});
+
+
+
+//   https://www.npmjs.com/package/gulp-plumber
